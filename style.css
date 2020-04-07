@@ -1,0 +1,120 @@
+section#container{
+    height: 80vh;
+    width: 30vw;
+    background:grey;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+
+
+h3  {
+background-color: aqua;
+    width: 100%;
+    height: 4%;
+    font-family: "Agency FB";
+    text-align: center  ;
+}
+
+body{
+
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+div#logo {
+    text-align: center;
+    margin-top: 2%;
+    line-height: .5;
+    color: white;
+}
+div#logo >i{
+    color:rgba(255,255,0,.8) ;
+    font-size: 100px;
+}
+#Tel{
+    background: inherit;
+    border: black;
+    width: 90%;
+    text-align: center;
+}
+fieldset{
+    width: 60%;
+    /*text-align: center;*/
+}
+#Tel:hover {
+    background: white;
+}
+
+div.row  {
+    background:grey;
+    display: flex;
+    flex-direction: row;
+}
+div.number {
+    background: whitesmoke;
+    padding: 5px 40px;
+    margin: 2% 4%;
+    border-radius: 8%;
+    box-shadow: 2px 1px 0px 0px darkcyan;;
+    border: 2px solid;
+    font-family: "Berlin Sans FB";
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+div.back {
+    font-size: 3em;
+    margin-left: 30px;
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+}
+input.event-none {
+    size: 10px;
+    background-color: aqua;
+    font-size: 1em;
+    margin-left: 10px;
+    font-family: "Agency FB";
+
+
+
+}
+
+ div.cta input.active {
+    background-color: red;
+}
+ .event-none {
+     pointer-events: none;
+ }
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+span{
+    color: black ;
+    size:60%;
+    margin-left: 10%;
+    /*margin-right: 30%;*/
+    /*margin-top: 2%;*/
+    /*margin-bottom:auto;*/
+    /*padding: auto auto;*/
+    background-color: blueviolet;
+    font-family: "Calisto MT";
+    border-radius: 10px;
+    /*overflow: visible;*/
+    /*position: absolute;*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+
+}
+
+div.cta input.yellow{
+    background-color: yellow;
+}
